@@ -58,7 +58,26 @@ P2 = P0 + ((rho1*g/gc*h1) + (rho2*g/gc*h2))/144.
 Pgage = P2-P0
 
 print "\nEnglish units: P1 = %.2f psi \nP2 = %.2f psi \nPgage = %.2f psig"%(P1,P2,Pgage)
+#=========================================================================================
+# Ex 2.2-3 Conversion of Pressure to head of a fluid
 
+# Part (a)
+# At T = 4 deg C, the density of water is 1.0 g/cm**3(= 1000 kg/m**3)
+rho = 1000 # density of water in kg/m**3 
+g = 9.80665 # acceleration due to gravity in m/s**2 
+P = 101325 #  Pressure in N/m**2
+#P = rho*g*Head, on rearranging, 
+Head = P/(rho*g)
+print "Head = %.4f m of water at 4 deg C"%Head
+
+# Part (b)
+# At T = 0 deg C, the density of Hg is 13.5955 g/cm**3(=13595.5 kg/m**3)
+rho = 13595.5 # density of Hg in kg/m**3
+g = 9.80665 # acceleration due to gravity in m/s**2 
+P = 101325 #  Pressure in N/m**2
+#P = rho*g*Head, on rearranging, 
+Head = P/(rho*g)
+print "Head = %.4f m of Hg"%Head
 #=========================================================================================
 # Ex. 2.2-4 Pressure difference in a manometer
 
