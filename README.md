@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to TBC Chemical Engineering
 
-You can use the [editor on GitHub](https://github.com/sanjivch/TBC_Chemical_Engineering/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hi there! I'm currently working on providing worked examples' implementation of few Chemical Engineering textbooks in Python 2.7. The solutions will be available both in raw python file as well as Jupyter notebook formats. I'm planning to provide the solutions for unsolved problems. However, this step is for much later.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hope the ChE student community benefits from this purpose! 
 
-### Markdown
+# Books under progress
+1. Transport Processes and Separation Process Principles, Christie J. Geankoplis, 4th Edition
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# More books to follow....
 
-```markdown
-Syntax highlighted code block
+### Author
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sanjivch/TBC_Chemical_Engineering/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Sanjiv](www.github.com/sanjivch)
