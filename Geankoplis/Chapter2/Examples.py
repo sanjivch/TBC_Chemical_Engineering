@@ -94,3 +94,24 @@ print "Pressure difference = %.3e N/m**2"%deltaP
 
 #Ex. 2.2-5 Derivation
 #=========================================================================================
+# Ex. 2.3-1 Molecular transport of a property at steadt state 
+
+c1 = 1.37e-02 # concentration at position 1 in amount of property/m**3
+c2 = 0.72e-02 # concentration at position 2 in amount of property/m**3
+z1 = 0. # position 1 in m 
+z2 = 0.4 # position 2 in m 
+diffusivity = 0.013 # in m**2/s 
+# Part (a)
+
+Flux = diffusivity*(c1-c2)/(z2-z1) # From Eq. 2.3-4  
+
+print "Flux = %.3e amount of property/s m**2"%Flux
+
+# Part (b) - Derivation 
+
+# Part (c)
+z = (z1+z2)/2. # midpoint
+#From Eq. 2.3-6
+c = c1 + (Flux/diffusivity)*(z1-z)
+
+print "Concentration at mid point of path = %.3e amount of property/m**3"%c
