@@ -115,3 +115,33 @@ z = (z1+z2)/2. # midpoint
 c = c1 + (Flux/diffusivity)*(z1-z)
 
 print "Concentration at mid point of path = %.3e amount of property/m**3"%c
+#========================================================================================================================
+
+# Ex. 2.5-1 Reynolds number in a Pipe
+# English units  
+q = 10/(7.481*60) # convert gal/min to ft**3/s
+
+
+D = 2.067/12. # convert in to ft
+A = (3.14*D**2)/4. # in ft**2
+v = q/A # in ft/s
+rho = 0.996*62.43 # convert g/cm**3 into lbm/ft**3 
+mu = 0.8007*6.7197e-04 # convert cp(g/cm s) to lbm/ft s   
+
+Re = D*v*rho/mu 
+
+print "Reynolds no. = %.3e"%Re
+
+# SI units  
+q = 10*3.785e-03/60 # convert gal/min to m**3/s
+
+
+D = 2.067*0.0254 # convert in to m
+A = (3.14*D**2)/4. # in m**2 
+v = q/A # in m/s
+rho = 0.996*1000. # convert g/cm**3 into kg/m**3 
+mu = 0.8007*0.001 # convert cp(0.01 g/cm s) to kg/m s 
+
+Re = D*v*rho/mu 
+
+print "Reynolds no. = %.3e"%Re
