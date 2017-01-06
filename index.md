@@ -1,15 +1,15 @@
 ### Welcome to TBC Chemical Engineering page.
 
-***Page under construction***
+This page contains the python code for few Chemical engineering textbooks.
 
-This page contains the python code few chemical engineering textbooks.
+### Books under progress
+1. Transport Processes and Separation Process Principles, Christie J. Geankoplis, 4th Edition
+
+### More books to follow....
 
 *This project is still a work in progress and needs massive amount of work.*
 
 Thank you for following this page!
 
-### Author/ Contributor
-@sanjivch
-
-[Sanjiv Ch](https://cmulate.wordpress.com) 
+©[Sanjiv Ch](https://www.linkedin.com/in/sanjivch09) 2016-17
 
